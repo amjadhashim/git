@@ -1,0 +1,139 @@
+@charset "utf-8";
+.sdfdfs {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+#wrapper {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+#wrapper #header {
+	background-color: #FFF;
+	height: 82px;
+	width: 100%;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #e8e8e9;
+}
+#header #header-middle {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#wrapper #contents-body {
+	width: 100%;
+}
+#flipboard-eyeblaster {
+	height: 500px;
+	margin-top: 13px;
+	position: relative;
+	z-index: 1000;
+}
+
+#contents-body #contents-middle {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#wrapper #footer-body {
+	background-image: url(../images/eyeblaster/footerbg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 160px;
+	width: 100%;
+	background-color: #58585a;
+}
+#tile1 {	
+	height: 156px;
+	width: 310px;
+	position: absolute;
+}
+#big-menu-body {
+	height: 500px;
+	width: 956px;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+	overflow: hidden;
+	margin-top: -13px;
+	z-index:2000;
+}
+#flipboard-eyeblaster #flipboard-content {
+	height: 484px;
+	width: 954px;
+	overflow: hidden;
+	position: relative;
+	z-index: 800;
+}
+
+#big-menu-body #big-menu-content {
+	height: 495px;
+	width: 954px;
+	position: relative;
+	top: -510px;
+	background-color: #FFF;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #ebebec;
+	border-bottom-color: #ebebec;
+	border-left-color: #ebebec;
+}
+
+
+#tile2 {	
+	height: 156px;
+	width: 310px;
+	position: absolute;
+	left: 322px;
+}
+#tile3 {	
+	height: 156px;
+	width: 310px;
+	position: absolute;
+	left: 644px;
+}
+#tile4 {
+	background-color: #ED008C;
+	height: 156px;
+	width: 310px;
+	position: absolute;
+	top: 166px;
+}
+#tile5 {
+	background-color: #ED008C;
+	height: 156px;
+	width: 310px;
+	position: absolute;
+	top: 166px;
+	left: 322px;
+}
+#tile6 {
+	background-color: #ED008C;
+	height: 156px;
+	width: 310px;
+	position: absolute;
+	top: 166px;
+	left: 644px;
+}
+#livetiles-boxes {
+	height: 354px;
+	width: 100%;
+	position: relative;
+}
+
+.live-tile {
+	width: 310px;
+	height:156px;
+}
